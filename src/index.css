@@ -96,6 +96,12 @@ body {
     margin-top: 0;
     color: #483C32;      
 }
+.button {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+}
 
   .transparent-btn {
     background-color: transparent;
@@ -106,7 +112,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     min-width: 250px; /* Ensures button stays long */
   }
 

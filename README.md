@@ -5,7 +5,6 @@ A modern, responsive **Digital Business Card** built with **React** and **JSX**,
 ## Features
 - **Reusable Components** – Easily update your contact info, social links, and profile image.
 - **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.
-- **Google Fonts Integration** – Stylish typography using [Playfair Display](https://fonts.google.com/specimen/Playfair+Display).
 - **Customizable Styling** – Update colors, layout, and icons to match your brand.
 
 ## Tech Stack
@@ -57,4 +56,5 @@ src/
 
 ## Author 
 - Pereruan Nabaala
+
 - pereruannabaala@gmail.com

@@ -1,3 +1,4 @@
+import avatar from '../assets/profile-picture.png'
 export default function TopSection () {
     return(
         <header>
@@ -8,7 +9,7 @@ export default function TopSection () {
             </div>
 
             <div className="avatar">
-                <img src="./public/images/profile-picture.png" alt="avatar" />
+                <img src={avatar} alt="avatar" />
             </div>
 
     </header>

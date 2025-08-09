@@ -1,6 +1,7 @@
 import { CiLinkedin } from "react-icons/ci"
 import { SiGmail } from "react-icons/si"
 import SocialMedia from "./SocialMedia"
+import Footer from "./Footer"
 
 export default function Info () {
     return(
@@ -25,8 +26,8 @@ export default function Info () {
                     </button>
                 </div>
                 <SocialMedia />
-            </div> 
-
+                <Footer />
+            </div>
         </section> 
     )
 }

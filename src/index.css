@@ -1,6 +1,6 @@
 :root { 
   --card-w: 360px;
-  --card-h: 720px;
+  --card-h: 800px;
   --cream: #f6efe8;   /* cream top */
   --taupe: #b29b8f;   /* lower background */
   --accent: #d6c7b9;
@@ -89,7 +89,8 @@ body {
 
 .content h1 {
     margin-top: 0;
-    margin-bottom: 0;     
+    margin-bottom: 0;
+    font-weight: 700;     
 }
 
 .content p {
@@ -160,4 +161,19 @@ body {
   font-size: 14px;
   text-align: center;
 }
+
+.social-divider {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.social-divider.second-divider {
+  margin-top:10px;
+} 
+
+
 

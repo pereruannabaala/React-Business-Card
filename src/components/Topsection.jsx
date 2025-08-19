@@ -1,4 +1,4 @@
-import avatar from '../images/profile-picture.png'
+import avatar from "../assets/profile-picture.png";
 export default function TopSection () {
     return(
         <header>
